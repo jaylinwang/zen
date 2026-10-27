@@ -1,0 +1,29 @@
+name: 错误报告 / Bug report
+description: 报告可复现的问题，请勿包含个人记录或安全漏洞细节。
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本与系统 / Version and OS
+      placeholder: "Zen 0.1.0, macOS 15, Apple Silicon"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 附上脱敏的最小复现步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期与实际行为 / Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 截图或日志 / Screenshots or logs
+      description: 请移除真实记录、个人路径及其他敏感内容。

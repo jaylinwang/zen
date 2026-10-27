@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安全问题 / Security reports
+    url: https://github.com/jaylinwang/zen/security/policy
+    about: 请遵循安全政策私密报告漏洞。

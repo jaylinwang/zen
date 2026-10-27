@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    name: macOS checks and iOS build
+    runs-on: macos-15
+    timeout-minutes: 25
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_16.4.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          swift --version
+      - name: Core, application and native interaction checks
+        run: ./scripts/check.sh
+      - name: iOS simulator compilation and resources
+        run: ./scripts/verify-ios.sh
+      - name: Check generated Xcode project
+        run: |
+          python3 scripts/generate-project.py
+          git diff --exit-code -- Zen.xcodeproj

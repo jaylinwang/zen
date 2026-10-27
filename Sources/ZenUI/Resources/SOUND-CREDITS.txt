@@ -1,0 +1,44 @@
+Mokugyo.wav — jonopodmore
+Source: https://freesound.org/people/jonopodmore/sounds/607215/
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Real small wooden fish from Kohya-san, Japan, struck with its original cloth-covered beater.
+The recording was made with an AKG 414 microphone, Fredenstein mic amp and RME Fireface interface.
+This identifies the instrument origin; it does not claim on-site temple ambience.
+Downloaded the public high-quality MP3 preview on 2026-10-21:
+https://cdn.freesound.org/previews/607/607215_541139-hq.mp3
+Converted to 44.1 kHz mono 16-bit PCM; retained the first 0.65 seconds including the strike and decay;
+removed trailing silence and applied a 20 ms fade to the near-silent end. No pitch or speed change.
+The source asset remains unchanged and is bundled for offline use.
+Playback treatment added 2026-10-22: soften high-frequency transients without pitch/speed change;
+add a quiet, damped and diffused room-reverb tail (1.8 s total) in memory, with peak headroom.
+This is an added acoustic effect, not a recording of a temple interior.
+The selected strike interval stays exact; at short intervals, decay overlaps the next cycle
+instead of being cut off. Processing is cached; playback remains fully offline.
+
+Additional recordings bundled on 2026-10-21 (all CC0 1.0 Universal):
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Qing / 磬声: "singing bowl - single strike 3" by s-light
+https://freesound.org/people/s-light/sounds/415138/
+Preview: https://cdn.freesound.org/previews/415/415138_2154914-hq.mp3
+A soft mallet striking a singing bowl, not a claim of a Chinese temple recording.
+Converted to 44.1 kHz mono 16-bit PCM, gain 0.65, 5 ms attack fade and 2 s tail fade.
+The full 19-second natural decay is retained; played once, never looped.
+
+Pine wind / 松风: "Kiefernwald Sommer.wav" by schneidi67
+https://freesound.org/people/schneidi67/sounds/395801/
+Preview: https://cdn.freesound.org/previews/395/395801_4895143-hq.mp3
+Field recording in a pine wood near the Polish coast; some birds may be audible.
+Retained seconds 40–74 to avoid recorder handling at the ends, downmixed to mono,
+removed DC, normalized with peak headroom, and joined with a 2-second equal-power
+crossfade for a continuous 32-second loop. No pitch/speed changes.
+
+Fine rain / 细雨: "Light Rain" by soundrecorder7
+https://freesound.org/people/soundrecorder7/sounds/167034/
+Preview: https://cdn.freesound.org/previews/167/167034_2328971-hq.mp3
+Light rainfall without thunder, replacing Zen's former synthesized rain sound.
+Retained seconds 1–26, downmixed to mono, removed DC, normalized with peak headroom,
+and joined with a 1-second equal-power crossfade for a continuous 24-second loop.
+No pitch/speed changes. All playback is offline; no runtime download or streaming.
